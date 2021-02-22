@@ -1,0 +1,14 @@
+package com.andresg.democonsola.service;
+
+import com.andresg.democonsola.repository.IPersonaRepo;
+
+public class IPersonaServiceImpl implements IPersonaService {
+
+	private IPersonaRepo repo;
+	
+	@Override
+	public void registrar(String nombre) {
+		repo.registrar(nombre);
+	}
+
+}

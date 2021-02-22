@@ -1,0 +1,6 @@
+package com.andresg.democonsola.repository;
+
+public class PersonaRepoImpl implements IPersonaRepo {
+	
+
+}

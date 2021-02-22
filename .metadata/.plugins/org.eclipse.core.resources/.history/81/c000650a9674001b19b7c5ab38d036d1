@@ -1,0 +1,5 @@
+package com.andresg.springbootfirsttestweb.service;
+
+public class UserService {
+
+}

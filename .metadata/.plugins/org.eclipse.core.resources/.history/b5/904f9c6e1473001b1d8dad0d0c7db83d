@@ -1,0 +1,25 @@
+package com.andresg.springbootfirsttestweb;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.andresg.springbootfirsttestweb.model.Usuario;
+import com.andresg.springbootfirsttestweb.repo.IUsuarioRepo;
+
+@SpringBootTest
+class SpringbootFirstTestWebApplicationTests {
+
+	@Autowired
+	private IUsuarioRepo repo;
+	
+	@Test
+	void crearUsuarioTest() {
+		Usuario user = new Usuario();
+		user.setId(1);
+		user.setNombre("andresg");
+		user.setClave("123");
+		repo.save(user);
+	}
+
+}

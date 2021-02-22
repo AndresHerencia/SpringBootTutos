@@ -1,0 +1,18 @@
+package com.andresg.democonsola.repository;
+
+import com.andresg.democonsola.DemoConsolaApplication;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
+public class PersonaRepoImpl implements IPersonaRepo {
+	
+	private static Logger LOG = LoggerFactory.getLogger(DemoConsolaApplication.class);
+
+	@Override
+	public void registrar(String nombre) {
+		LOG.info("SE REGISTRO A: " + nombre);
+		
+	}
+	
+
+}

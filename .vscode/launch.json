@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DemoConsolaApplication",
+            "request": "launch",
+            "mainClass": "com.andresg.democonsola.DemoConsolaApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootFirstTestWebApplication<springboot-first-test-web>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.andresg.springbootfirsttestweb.SpringbootFirstTestWebApplication",
+            "projectName": "springboot-first-test-web",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoConsolaApplication<demo-consola>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.andresg.democonsola.DemoConsolaApplication",
+            "projectName": "demo-consola",
+            "args": ""
+        }
+    ]
+}

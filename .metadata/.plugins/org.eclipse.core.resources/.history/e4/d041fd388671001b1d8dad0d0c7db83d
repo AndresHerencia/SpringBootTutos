@@ -1,0 +1,5 @@
+package com.andresg.democonsola.service;
+
+public class IPersonaService {
+
+}

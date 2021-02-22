@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SpringbootFirstTestWebApplicationTests" project="springboot-first-test-web" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.andresg.springbootfirsttestweb.SpringbootFirstTestWebApplicationTests" time="0.274" displayname="SpringbootFirstTestWebApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.andresg.springbootfirsttestweb.SpringbootFirstTestWebApplicationTests]">
+    <testcase name="crearUsuarioTest" classname="com.andresg.springbootfirsttestweb.SpringbootFirstTestWebApplicationTests" time="0.274" displayname="crearUsuarioTest()" uniqueid="[engine:junit-jupiter]/[class:com.andresg.springbootfirsttestweb.SpringbootFirstTestWebApplicationTests]/[method:crearUsuarioTest()]"/>
+  </testsuite>
+</testrun>
